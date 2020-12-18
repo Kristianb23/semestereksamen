@@ -1,0 +1,160 @@
+* {
+    text-decoration: none;
+    
+}
+
+
+header {
+    background-color:#432C2C;
+    padding: 1%;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-family: arial;
+    margin-bottom: 1%;
+}
+
+header img {
+    width: 100%;
+}
+
+footer {
+  background-color: #432C2C;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-family: arial;
+    height: 15px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+nav {
+    color: white;
+    float: left;
+    width: 100%;
+    height: 50px;
+    background: #724B4B;
+    padding: 0px;
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 1.2%;
+
+}
+nav ul li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0px;
+}
+
+article h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+article p {
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 20px;
+}
+
+article {
+    float: left;
+    padding: 0px;
+    width: 100%;
+    background-color: #E2BABA;
+    height: 100%;
+    font-family: arial;
+    
+}
+
+
+article img {
+    width: 100%;
+    
+}
+
+input[type=text], select, textarea {
+    font-family: arial;
+    font-size: 20px;
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #432C2C; 
+    border-radius: 8px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+    
+  }
+  label [id="besked"], textarea {
+      height: 200px
+  }
+  
+  input[type=submit] {
+      font-size: 20px;
+      font-weight: bold;
+    background-color: #724B4B;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    
+  }
+  
+  input[type=submit]:hover {
+    background-color: #432C2C;
+  }
+  
+  .container {
+    border-radius: 5px;
+    padding: 5%;
+  }
+
+@media screen and (min-width: 768px) {
+    article img {
+        width: 50%;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    article p {
+        margin-left: 3%;
+        margin-right: 3%;
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    header {
+        background-color:#432C2C;
+        padding: 1%;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+        font-family: arial;
+        margin-bottom: 1%;
+    }
+
+    header img {
+        width: 100%;
+    }
+    
+    article img {
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    article p {
+        margin-left: 3%;
+        margin-right: 3%;
+        font-size: 20px;
+        text-align: center;
+    }
+}
